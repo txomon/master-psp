@@ -18,8 +18,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="simple.vi" Type="VI" URL="../simple.vi"/>
-		<Item Name="complex.vi" Type="VI" URL="../complex.vi"/>
+		<Item Name="structures.vi" Type="VI" URL="../structures.vi"/>
 		<Item Name="Dependencies" Type="Dependencies" />
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
