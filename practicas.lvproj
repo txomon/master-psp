@@ -23,8 +23,13 @@
 			<Item Name="se1e2.vi" Type="VI" URL="../intro/se1e2.vi"/>
 			<Item Name="se2.vi" Type="VI" URL="../intro/se2.vi"/>
 			<Item Name="se3e1.vi" Type="VI" URL="../intro/se3e1.vi"/>
+			<Item Name="se3e2.vi" Type="VI" URL="../intro/se3e2.vi"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Luismi" Type="RT Desktop">
