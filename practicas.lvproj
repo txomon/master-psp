@@ -116,8 +116,13 @@ AddOutputFilter chunkFilter
 			<Item Name="pr1c1.vi" Type="VI" URL="../pr1/pr1c1.vi"/>
 			<Item Name="pr1c2.vi" Type="VI" URL="../pr1/pr1c2.vi"/>
 		</Item>
+		<Item Name="pr2" Type="Folder">
+			<Item Name="No_linealidades.vi" Type="VI" URL="../pr2/No_linealidades.vi"/>
+		</Item>
 		<Item Name="utils" Type="Folder">
 			<Item Name="frecuency-pwm-calculator.vi" Type="VI" URL="../utils/frecuency-pwm-calculator.vi"/>
+			<Item Name="GeneradosNoLineal.vi" Type="VI" URL="../pr2/GeneradosNoLineal.vi"/>
+			<Item Name="Get Internal Counter Out Terminal.vi" Type="VI" URL="../utils/Get Internal Counter Out Terminal.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -366,6 +371,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
